@@ -20,11 +20,11 @@ public class Cell {
         int cellStatus = getStatus();
 
         if (cellStatus == -1){
-            System.out.println("Wreckage");
+            System.out.print("\\X/");
         }else if (cellStatus == 0){
-            System.out.println("Empty cell");
+            System.out.print(" ~ ");
         }else{
-            System.out.println("Ship");
+            System.out.print("\\_/");
         }
     }
 
