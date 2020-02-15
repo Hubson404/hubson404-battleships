@@ -146,8 +146,8 @@ public class Game {
                break;
            case 1:
                System.out.println("Firing a shot, you've hit the target.");
-               board[row][col].wreckShip();
-               playerBoard[row][col].wreckShip();
+               board[row][col].hitShip();
+               playerBoard[row][col].hitShip();
                break;
            case 2:
                System.out.println("You missed again.");
