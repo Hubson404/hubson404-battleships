@@ -1,4 +1,4 @@
-package pl.hubson404.battleships.encapsulation;
+package pl.hubson404.battleships;
 
 import pl.hubson404.battleships.Cell;
 

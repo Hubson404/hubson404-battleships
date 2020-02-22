@@ -1,10 +1,8 @@
-package pl.hubson404.battleships.encapsulation;
-
-import pl.hubson404.battleships.Cell;
+package pl.hubson404.battleships;
 
 import java.util.Scanner;
 
-public class GameEnc {
+public class GameMain {
 
     public static void main(String[] args) {
 
