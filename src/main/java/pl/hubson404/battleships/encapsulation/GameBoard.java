@@ -1,4 +1,6 @@
-package pl.hubson404.battleships;
+package pl.hubson404.battleships.encapsulation;
+
+import pl.hubson404.battleships.Cell;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,8 +8,9 @@ import java.util.Random;
 
 public class GameBoard {
 
-    int boardSize;
-    Cell[][] board;
+    private int boardSize;
+
+    private Cell[][] board;
 
     public GameBoard(int boardSize){
 
@@ -66,11 +69,17 @@ public class GameBoard {
 
             String placement = String.format("%d%d",rowPlacement,colPlacement);
 
-            if (!positions.contains(placement)) {
+            boolean listCheck = positions.contains(placement);
+
+            if (listCheck == false) {
                 board[rowPlacement][colPlacement].placeShip();
                 positions.add(placement);
                 i++;
             }
         }
+    }
+
+    public Cell[][] getBoard() {
+        return board;
     }
 }

@@ -5,7 +5,7 @@ public class Cell {
     // status = 0 -- empty cell, default
     // status = 1 -- ship in this cell
     // status = -1 --- ship is destroyed in this cell
-    // status = 2 --- shot was missed
+    // status = 2 --- shot missed
 
     private int status = 0;
 
