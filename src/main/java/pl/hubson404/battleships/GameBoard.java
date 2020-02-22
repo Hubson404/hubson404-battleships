@@ -67,7 +67,7 @@ public class GameBoard {
             int rowPlacement = random.nextInt(boardSize);
             int colPlacement = random.nextInt(boardSize);
 
-            String placement = String.format("%d%d",rowPlacement,colPlacement);
+            String placement = String.format("%d-%d",rowPlacement,colPlacement);
 
             boolean listCheck = positions.contains(placement);
 
