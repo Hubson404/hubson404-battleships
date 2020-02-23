@@ -8,12 +8,12 @@ import java.util.Random;
 
 public class GameboardClassic {
 
-    public List<String> positions = new LinkedList<>();
+    private List<String> positions = new LinkedList<>();
     private Random random = new Random();
     private static int row = 0;
     private static int col = 0;
 
-    private static int boardSize = 9;
+    private static int boardSize = 10;
 
     private Cell[][] board;
 
@@ -65,9 +65,7 @@ public class GameboardClassic {
         }
     }
 
-    private void randomShip(int size) {
-
-        int shipSize = size;
+    private void randomShip(int shipSize) {
 
         int i = 0;
 
