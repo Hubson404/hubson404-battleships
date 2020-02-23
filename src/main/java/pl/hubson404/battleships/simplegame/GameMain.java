@@ -1,4 +1,7 @@
-package pl.hubson404.battleships;
+package pl.hubson404.battleships.simplegame;
+
+import pl.hubson404.battleships.Cell;
+import pl.hubson404.battleships.simplegame.GameBoard;
 
 import java.util.Scanner;
 

@@ -30,13 +30,13 @@ public class Cell {
         int cellStatus = getStatus();
 
         if (cellStatus == -1){
-            System.out.print(" X ");
+            System.out.print("|X|");
         }else if (cellStatus == 0){
             System.out.print(" # ");
         }else if (cellStatus == 1){
-            System.out.print(" S ");
+            System.out.print("|o|");
         }else{
-            System.out.print(" 0 ");
+            System.out.print("mss");
         }
     }
 
